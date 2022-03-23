@@ -53,7 +53,7 @@ section {
 }
 
 header {
-  height: 100%;
+  height: 100vh;
   color: var(--color-white);
   overflow: hidden;
 }
@@ -930,13 +930,13 @@ header {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
-  .contact-content {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+  .contact-content-container {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
   }
-  .contact-content .right-contact {
+  .contact-content-container .right-contact {
     margin-left: 0;
     margin-top: 2.5rem;
   }
@@ -962,5 +962,17 @@ header {
   .controls .control {
     margin: 1rem .3rem;
   }
+}
+
+.contact-content-container {
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+}
+
+.contact-content-container .right-contact {
+  margin-left: 0;
+  margin-top: 2.5rem;
 }
 /*# sourceMappingURL=style.css.map */

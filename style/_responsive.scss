@@ -32,8 +32,10 @@
     .section{
         padding: 2rem 2.5rem;
     }
-    
+   
+
     .about-container{
+        
         grid-template-columns: 1fr;
         .right-about{
             grid-template-columns: 1fr;
@@ -64,13 +66,12 @@
         }
     }
 
-    .contact-content{
+    .contact-content-container{
         flex-direction: column !important;
         .right-contact{
             margin-left: 0;
             margin-top: 2.5rem;
         }
-
     }
     section{
         padding: 2rem 2.5rem;
@@ -93,4 +94,13 @@
         }
     }
 
+}
+
+
+.contact-content-container{
+    flex-direction: column !important;
+    .right-contact{
+        margin-left: 0;
+        margin-top: 2.5rem;
+    }
 }
