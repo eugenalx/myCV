@@ -962,17 +962,18 @@ header {
   .controls .control {
     margin: 1rem .3rem;
   }
-}
 
-.contact-content-container {
-  -webkit-box-orient: vertical !important;
-  -webkit-box-direction: normal !important;
-      -ms-flex-direction: column !important;
-          flex-direction: column !important;
-}
 
-.contact-content-container .right-contact {
-  margin-left: 0;
-  margin-top: 2.5rem;
+  .contact-content-container {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+
+  .contact-content-container .right-contact {
+    margin-left: 0;
+    margin-top: 2.5rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
