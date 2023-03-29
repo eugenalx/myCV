@@ -119,16 +119,7 @@ header {
 
 .active {
   display: block;
-  -webkit-animation: sliderAnim 1s ease-in-out;
-          animation: sliderAnim 1s ease-in-out;
-}
-@-webkit-keyframes sliderAnim {
-  0% {
-    transform: translateY(-100%) scaleY(0);
-  }
-  100% {
-    transform: translateY(0) scaleY(1);
-  }
+  animation: sliderAnim 1s ease-in-out;
 }
 @keyframes sliderAnim {
   0% {
@@ -196,7 +187,7 @@ header {
   display: grid;
   grid-template-columns: 1fr;
   padding-top: 3.5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 1rem;
 }
 .about-container .right-about {
   display: grid;
@@ -336,7 +327,7 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
-  padding-bottom: 3rem;
+  padding-bottom: 6rem;
 }
 .timeline .tl-item {
   position: relative;
@@ -560,10 +551,6 @@ header {
   justify-content: flex-start;
 }
 .contact-content-container .right-contact ::-moz-placeholder {
-  z-index: 1000;
-  color: var(--color-white);
-}
-.contact-content-container .right-contact :-ms-input-placeholder {
   z-index: 1000;
   color: var(--color-white);
 }

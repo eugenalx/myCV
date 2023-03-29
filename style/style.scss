@@ -200,7 +200,7 @@ header{
     display: grid;
     grid-template-columns:  1fr;
     padding-top: 3.5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
     .right-about{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -344,7 +344,7 @@ header{
     display: grid;
     grid-template-columns: repeat(2, 1fr);  
     grid-gap: 2rem;
-    padding-bottom: 3rem;
+    padding-bottom: 6rem;
     .tl-item{
         position: relative;
         padding-left: 3rem;
