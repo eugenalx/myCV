@@ -462,7 +462,7 @@ header {
   padding-top: 4rem;
 }
 .contact-content-container .left-contact {
-  flex: 3;
+  flex: 6;
 }
 .contact-content-container .left-contact h4 {
   margin-top: 1rem;
@@ -792,5 +792,15 @@ header {
   }
   .section {
     padding-bottom: 6rem !important;
+  }
+}
+@media only screen and (min-width: 970px) {
+  .contact-content-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 4rem;
+  }
+  .contact-content-container .left-contact {
+    flex: 10;
   }
 }/*# sourceMappingURL=style.css.map */
