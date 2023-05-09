@@ -295,7 +295,10 @@ header {
   width: 70%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
-  width: 40%;
+  width: 50%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .csharp {
+  width: 30%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .javascript {
   width: 60%;
